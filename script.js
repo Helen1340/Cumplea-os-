@@ -5,11 +5,6 @@ function mostrarVideo() {
 
     contenedor.style.display = "block";
 
-    const video =
-        document.getElementById("video");
-
-    video.play();
-
     contenedor.scrollIntoView({
         behavior: "smooth"
     });
